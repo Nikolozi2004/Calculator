@@ -6,11 +6,9 @@
         {
             do
             {
-                double inputNumber1 = 0;
-                double result = 0;
                 Console.WriteLine("Calculator");
                 Console.WriteLine("Enter Number 1");
-                inputNumber1 = Convert.ToDouble(Console.ReadLine());
+                double inputNumber1 = Convert.ToDouble(Console.ReadLine());
 
                 Console.WriteLine("Enter Number 2");
                 double inputNumber2 = Convert.ToDouble(Console.ReadLine());
@@ -21,6 +19,7 @@
                 Console.WriteLine("MULTIPLY : \t*");
                 Console.WriteLine("DEVIDE: \t/");
 
+                double result;
                 switch (Console.ReadLine())
                 {
                     case "+":
